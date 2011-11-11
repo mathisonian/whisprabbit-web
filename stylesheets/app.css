@@ -1,0 +1,111 @@
+
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+ Table of Contents
+ -----------------------------------------------------
+ :: Shared Styles
+ :: Page Name 1
+ :: Page Name 2
+ */
+
+
+/* -----------------------------------------
+ Shared Styles
+ ----------------------------------------- */
+#menuBar {
+	padding: 5px;
+	left: 0px;
+	right: 0px;
+	position: fixed;
+	z-index: 99;
+    //    background-color: black;
+	background-color: #646361;
+	border-bottom: 0px #000 solid;
+	min-width: 500px
+}
+
+#menuBar h5 a {
+    color : white;
+    font-weight : bold;
+}
+
+#menuBar strong a.button {
+    padding: 4px 10px;
+    font-weight: bold;
+    color : white;
+}
+
+#menuBar strong a {
+    line-height: 14px;
+    color: white;
+    font-weight: 500;
+    padding-right: 12px;
+}   
+
+#menuBar strong input {
+    margin-right: 12px;
+}
+
+.content {
+    padding-top : 75px;
+}
+
+.thread {
+    padding-top : 3px;
+    padding-right : 10px;
+}
+
+.thread:hover {
+    background-color : #eee;
+}
+
+.threadSelected {
+    padding-top : 2px;
+    padding-right : 10px;
+    background-color : #ddd;
+}
+
+.numResponses {
+    position: absolute;
+    //    left: 15px;
+    top: 21px;
+    right : 3px;
+    display: table;
+    opacity : .3;
+}
+
+.numResponses h1 {
+    display: table-cell;
+    vertical-align: middle;
+    color : #727272;
+}
+
+.reveal-modal a {
+    padding : 10px;
+}
+
+.response {
+    padding-top : 7px;
+    padding-bottom : 7px;
+}
+
+.response p {
+    margin : 0px;
+}
+
+
+/* -----------------------------------------
+ Page Name 1
+ ----------------------------------------- */
+
+
+
+
+
+
+/* -----------------------------------------
+ Page Name 2
+ ----------------------------------------- */
+
+

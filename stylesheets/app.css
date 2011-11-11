@@ -94,6 +94,24 @@
     margin : 0px;
 }
 
+#responses {
+    margin-left : 20px;
+    padding-left : 15px;
+//    border-left-color : #646361;
+//    border-left-style : solid;
+//    border-left-width : 1px;
+//    border-top-color : #646361;
+//    border-top-style : solid;
+//    border-top-width : 1px;
+}
+
+#responseDiv { 
+    display : none;
+}
+
+.tag {
+    font-size : italic;
+}
 
 /* -----------------------------------------
  Page Name 1

@@ -20,9 +20,13 @@
 	position: fixed;
 	z-index: 99;
     //    background-color: black;
-	background-color: #646361;
-	border-bottom: 0px #000 solid;
+	background-color: #000;
+	border-bottom: 4px #bbb solid;
 	min-width: 500px
+}
+
+body {
+    color : black;
 }
 
 #menuBar h5 a {
@@ -111,6 +115,15 @@
 
 .tag {
     font-size : italic;
+}
+
+.nice.gray.button {
+    border: 1px solid #ccc;
+}
+
+.gray.button {
+    background-color: #ddd;
+    color : #000;
 }
 
 /* -----------------------------------------

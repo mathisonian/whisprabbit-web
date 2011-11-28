@@ -1,161 +1,172 @@
-
-<!DOCTYPE html>
-
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!DOCTYPE html> <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8" />
-        
-        <!-- Set the viewport width to device width for mobile -->
-        <meta name="viewport" content="width=device-width" />
-        
-        <title>whisprabbit</title>
-        
-        <!-- Included CSS Files -->
-        <link rel="stylesheet" href="stylesheets/foundation.css">
-            <link rel="stylesheet" href="stylesheets/app.css">
-                
-                <!--[if lt IE 9]>
-                 <link rel="stylesheet" href="stylesheets/ie.css">
-                 <![endif]-->
-                
-                
-                <!-- IE Fix for HTML5 Tags -->
-                <!--[if lt IE 9]>
-                 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-                 <![endif]-->
-                
-    </head>
-    <body>
-        
-        <div id="menuBar" class="container">
-            <div class="row">
-                <div class="four columns">
-                    <h5><a href="">whisprabbit</a></h5>
-                </div>
-                <div class="eight columns">
-                    <strong class="right">
-                        <input type="text" placeholder="Search">
-                            <a href="">Subscribe</a>                    
-                            <a href="">Contact</a>
-                            <a href="" class="small blue nice button radius" id="postButton" data-reveal-id="myModal">Post</a>
-                            </strong>
-                </div>
-            </div>
-            
-        </div>
-        
-        <!-- container -->
-        <div class="container content">
-            <div class="row">
-                <div class="three columns">
-                    Tags
-                    <div class="row tag">
-                        <div class="ten columns centered">
-                        noTags
-                        </div>    
-                    </div>
-                    
-                    <div class="row tag">
-                        <div class="ten columns centered">
-                            noTags
-                        </div>    
-                    </div>
-                    
-                    <div class="row tag">
-                        <div class="ten columns centered">
-                            noTags
-                        </div>    
-                    </div>
-                </div>
-                <div class="five columns" id="threadDiv">
-                    <div class="row thread">
-                        <div class="four columns">
-                            <img src="http://placehold.it/100x100">
-                        </div>
-                        <div class="seven columns">
-                            <p>
-                            Here is some example text. lorem ipsum 
-                            blah blah. fjkdlaj;f kal;jf dkla;  kjflda
-                            fjdkl fjdkalf aklfdj af jlf;a fjklda ;ff kl;ff 
-                            fdjkal; fdaklf;jd a
-                            </p>
-                        </div>
-                        <div class="one columns">
-                            <div class="numResponses">
-                                <h1>
-                                    17
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row thread">
-                        <div class="four columns">
-                            <img src="http://placehold.it/100x100">
-                                </div>
-                        <div class="seven columns">
-                            Here is some example text. lorem ipsum 
-                            blah blah.
-                        </div>
-                        <div class="one columns">
-                            <div class="numResponses">
-                                <h1>
-                                    170
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="four columns" id="responses">
-                    <div id="responseDiv">
-                    <div class="row response">
-                                <div class="three columns">
-                                    <img src="http://placehold.it/100">
-                                        </div>
-                                <div class="nine columns">
-                                    <p style="padding : 0px; margin:0px;">Here is some text that is in response to this thread. Let's see wjat happens if i make this longer and stuff.</p>
-                                </div>
-                    </div>
-                    <div class="row response">    
-                        <div class="three columns">
-                            <img src="http://placehold.it/100">
-                                </div>
-                        <div class="nine columns">
-                            <p style="padding : 0px; margin:0px;">Here is some text that is in response to this thread.</p>
-                        </div>
-                    </div>
-                    <div class="row response">
-                        <div class="three columns">
-                            <img src="http://placehold.it/100">
-                                </div>
-                        <div class="nine columns">
-                            <p style="padding : 0px; margin:0px;">Here is some text that is in response to this thread.</p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div id="myModal" class="reveal-modal">
-            <h3>Create a new thread</h3>
-            <p class="lead">Talk to the world, anonymously!</p>
-            <p>Special Text:<br />
-            img:url - include an image from a url<br />
-            inv:email@address.com - anonymously inivite someone via email<br />
-            inv:@twitterHandle - anonymously invite someone via twitter</p>
-            <textarea style="width: 100%; height: 100px"></textarea><br/>
-            <a href="" class="small blue nice button radius" >Post</a>
-            <a href="" >Attach Image</a>
-            <a class="close-reveal-modal">&#215;</a>
-        </div>
-		
-        <!-- Included JS Files -->
-        <script src="javascripts/foundation.js"></script>
-        <script src="javascripts/app.js"></script>
-        
-    </body>
+<!--[if gt IE 8]><!-->
+<html lang="en">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<!-- Set the viewport width to device width for mobile -->
+		<meta name="viewport" content="width=device-width" />
+		<title>whisprabbit</title>
+		<!-- Included CSS Files -->
+		<link rel="stylesheet" href="stylesheets/foundation.css">
+		<link rel="stylesheet" href="stylesheets/app.css">
+		<!--[if lt IE 9]>
+		<link rel="stylesheet" href="stylesheets/ie.css">
+		<![endif]-->
+		<!-- IE Fix for HTML5 Tags -->
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="menuBar" class="container">
+			<div class="row">
+				<div class="four columns">
+					<h5><a href="">whisprabbit</a></h5>
+				</div>
+				<div class="eight columns">
+					<strong class="right">
+					<input type="text" placeholder="Search">
+					<a href="">Subscribe</a> <a href="">Contact</a> <a href="" class="small blue nice button radius" id="postButton" data-reveal-id="myModal"><span style="color:white;">Post</span></a> </strong>
+				</div>
+			</div>
+		</div>
+		<!-- container -->
+		<div class="container content">
+			<div class="row">
+				<div class="one columns">
+					Tags
+					<div class="row tag">
+						<div class="ten columns centered">
+							noTags
+						</div>
+					</div>
+					<div class="row tag">
+						<div class="ten columns centered">
+							noTags
+						</div>
+					</div>
+					<div class="row tag">
+						<div class="ten columns centered">
+							noTags
+						</div>
+					</div>
+				</div>
+				<div class="five columns" id="threadDiv">
+					<div class="row thread">
+						<div class="four columns">
+							<img src="http://placehold.it/100x100">
+						</div>
+						<div class="seven columns">
+							<p>
+								Here is some example text. lorem ipsum
+								blah blah. fjkdlaj;f kal;jf dkla;  kjflda
+								fjdkl fjdkalf aklfdj af jlf;a fjklda ;ff kl;ff
+								fdjkal; fdaklf;jd a
+							</p>
+						</div>
+						<div class="one columns">
+							<div class="numResponses">
+								<h1> 17 </h1>
+							</div>
+						</div>
+					</div>
+					<div class="row thread">
+						<div class="four columns">
+							<img src="http://placehold.it/100x100">
+						</div>
+						<div class="seven columns">
+							Here is some example text. lorem ipsum
+							blah blah.
+						</div>
+						<div class="one columns">
+							<div class="numResponses">
+								<h1> 170 </h1>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="one columns"></div>
+				<div class="five columns" id="responses">
+					<div id="responseDiv">
+						<div class="row response">
+							<div class="three columns">
+								<img src="http://placehold.it/100">
+							</div>
+							<div class="nine columns">
+								<p style="padding : 0px; margin:0px;">
+									Here is some text that is in response to this thread. Let's see wjat happens if i make this longer and stuff.
+								</p>
+							</div>
+						</div>
+						<div class="row response">
+							<div class="three columns">
+								<img src="http://placehold.it/100">
+							</div>
+							<div class="nine columns">
+								<p style="padding : 0px; margin:0px;">
+									Here is some text that is in response to this thread.
+								</p>
+							</div>
+						</div>
+						<div class="row response">
+							<div class="three columns">
+								<img src="http://placehold.it/100">
+							</div>
+							<div class="nine columns">
+								<p style="padding : 0px; margin:0px;">
+									Here is some text that is in response to this thread.
+								</p>
+							</div>
+						</div>
+						<div class="row addresponse" style="border-top-color: #111;border-top-width: 1px; border-top-style: solid; padding-top: 10px;">
+							<form class="nice">
+								<div class="row">
+									<div class="three columns">
+										<img src="./images/add_response-01.png">
+									</div>
+									<div class="nine columns">
+										<textarea></textarea>
+										<div class="row">
+											<div class="four columns">
+												<a href="" class="small black nice button radius">Submit</a>
+											</div>
+											<div class="three columns">
+												<a href="" style="color:black;">Attach</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="myModal" class="reveal-modal">
+			<h3>Create a new thread</h3>
+			<p class="lead">
+				Talk to the world, anonymously!
+			</p>
+			<p>
+				Special Text:
+				<br />
+				img:url - include an image from a url
+				<br />
+				inv:email@address.com - anonymously inivite someone via email
+				<br />
+				inv:@twitterHandle - anonymously invite someone via twitter
+			</p>
+			<textarea style="width: 100%; height: 100px"></textarea>
+<br/>			<a href="" class="small blue nice button radius" >Post</a>
+			<a href="" >Attach Image</a>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>
+		<!-- Included JS Files -->
+		<script src="javascripts/foundation.js"></script>
+		<script src="javascripts/app.js"></script>
+	</body>
 </html>
